@@ -5,6 +5,7 @@ public class ResourceNotFoundException extends RuntimeException{
     String field;
     String fieldName;
     Long fieldId;
+    
 
     public ResourceNotFoundException(){
 
