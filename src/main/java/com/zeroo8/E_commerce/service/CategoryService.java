@@ -12,6 +12,7 @@ public interface CategoryService {
     CategoryDTO deleteCategory(Long categoryId);
 
 
+
     CategoryDTO updateCategory(@Valid CategoryDTO category, Long categoryId);
 
 
