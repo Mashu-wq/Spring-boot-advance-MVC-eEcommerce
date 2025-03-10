@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
-
+// MyGlobalExceptionHandler class is created to handle exceptions globally
 public class MyGlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, String>> myMethodArgumentNotValidException(MethodArgumentNotValidException e){
