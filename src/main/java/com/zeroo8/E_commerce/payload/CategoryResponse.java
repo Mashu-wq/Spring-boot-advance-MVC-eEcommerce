@@ -1,12 +1,9 @@
 package com.zeroo8.E_commerce.payload;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-
+// Category response is added
 public class CategoryResponse {
     private List<CategoryDTO> content;
 
