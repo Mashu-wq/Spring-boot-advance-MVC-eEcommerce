@@ -1,5 +1,6 @@
 package com.zeroo8.E_commerce.payload;
 
+
 public class CategoryDTO {
     private Long categoryId;
     private String categoryName;
