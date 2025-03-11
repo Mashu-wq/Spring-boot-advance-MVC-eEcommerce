@@ -40,7 +40,7 @@ public class CategoryServiceImpl implements CategoryService{
             throw new ApiException("No category created till now.");
         List<CategoryDTO> categoryDTOS = categories.stream().map(category -> modelMapper.map(category, CategoryDTO.class)).toList();
         CategoryResponse categoryResponse = new CategoryResponse();
-        categoryResponse.setContent(categoryDTOS);
+        categoryResponse.setContent(categoryDTOS); 
 
         categoryResponse.setPageNumber(categoryPage.getNumber());
         categoryResponse.setPageSize(categoryPage.getSize());
