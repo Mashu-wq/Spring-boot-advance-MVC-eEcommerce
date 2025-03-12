@@ -86,7 +86,7 @@ public class CategoryServiceImpl implements CategoryService{
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity<String> handleResponseStatusException(ResponseStatusException ex) {
         ex.printStackTrace(); // Log the stack trace
-        return new ResponseEntity<>(ex.getReason(), ex.getStatusCode());
+        return new ResponseEntity<>(ex.getReason(), ex.getStatusCode()); 
     }
 
 
